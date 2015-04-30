@@ -39,4 +39,7 @@ if __name__ == '__main__':
     print(magenta + 'yellow' + reset, end=' ')
     print(violet + 'violet' + reset, end=' ')
     print(cyan + 'cyan' + reset, end=' ')
-    print(green + 'green' + reset, end=' ')
+    print(green + 'green' + reset, end=' '
+    for count in range(7):
+        print(random_color() + 'Random' + reset, end=' ')
+        print())
