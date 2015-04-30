@@ -1,0 +1,18 @@
+#!/usr/bin/env python3
+
+import colors as c
+
+print(c.clear)
+print(c.magenta + "Hi what's your name?" + c.reset)
+name = input('> ' + c.green)
+print(c.violet + 'Well ' + c.blue + name + c.orange + ', go do the world a favor and' + c.red + ' go die in a hole.' + c.cyan + ' Like, NOW.')
+print(c.blue + 'Your age?')
+age = input('>' + c.green)
+print(c.cyan + 'Ah, ' + c.magenta + age + c.red + '. I despised being ' + c.orange + age + c. violet + '.')
+print(c.blue + 'when were you born?')
+birth = input('>' + c.green)
+print(c.red + 'HOLY SALAMI!!' + birth + c.orange + '!! Was that like, when there were no cars??')
+print(c.magenta + 'What is your favorite color?')
+color = input('>'+ c.green)
+print(c.red + 'Whaaaaaaa???' + color + c. violet + ' stinks!!')
+print(c.yellow + "Alright, it's time for me to leave. Bye!")
