@@ -42,4 +42,4 @@ if __name__ == '__main__':
     print(green + 'green' + reset, end=' ')
     for count in range(7):
         print(random_color() + 'Random' + reset, end=' ')
-        print())
+        print()
