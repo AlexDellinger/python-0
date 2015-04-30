@@ -1,3 +1,8 @@
+"""This is my colors module.
+
+Whatever
+"""
+
 base00 = '\033[1;33m'
 base03 = '\033[1;30m'
 base02 = '\033[0;30m'
