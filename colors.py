@@ -21,7 +21,9 @@ cyan = '\033[0;36m'
 green = '\033[0;32m'
 reset = '\033[0m'
 clear = '\033[H\033[2J'
-
+import random
+def random_color():
+    return random.choice([yellow, orange, red, magenta, violet, blue, cyan, green])
 if __name__ == '__main__':
     print(clear)
     print(base03 + 'Base03' + reset, end=' ')
